@@ -1,0 +1,22 @@
+#in{
+    background-color:lightcyan;
+    width: 50;
+}
+#p{
+    font-size: 50px;
+    margin: 50px;
+    padding: 30px;
+    width: 50px;
+}
+
+.b{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.b:hover{
+    background-color: lightgray;
+    font-size: 12px;
+    cursor: pointer;
+}

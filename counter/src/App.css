@@ -3,7 +3,7 @@ ul{
   margin: 0;
   padding: 0px;
   overflow: hidden;
-  background-color: rgb(192, 190, 190);
+  background-color: lightblue;
 }
 li{
   float: left;
@@ -11,7 +11,7 @@ li{
 }
 .a{
    display: block;
-   color: blue;
+   color: black;
    font-size: 10px;
    text-align: center;
    padding: 10px 20px;
@@ -19,8 +19,8 @@ li{
    font-size: 15px;
 }
 .a:hover{
-  background-color: rgb(54, 53, 51);
-  color: white;
+  background-color: rgb(118, 128, 118);
+  color: rgb(255, 255, 255);
   border-radius: 10px;
   text-decoration: underline;
 }

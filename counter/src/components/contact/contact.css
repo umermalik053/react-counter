@@ -1,0 +1,45 @@
+.messagecontainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 84vh;
+  }
+  
+  .message-bubble {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    
+    background-color: lightgray;
+    max-width: 50%;
+  }
+  
+  .message-text {
+    margin: 0;
+  }
+  
+  .message-left {
+    align-self: flex-start;
+    background-color: lightblue;
+    border-radius: 20px 20px 20px 0px;
+    
+  }
+  
+  .message-right {
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+    background-color: lightgreen;
+    
+  }
+  .from{
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-decoration-line: underline;  }
+  .text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: capitalize;
+  }

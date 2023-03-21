@@ -25,6 +25,8 @@ function Gallery() {
 
     },[])
     const post = async (e) => {
+      // use this for page reload stop
+      e.preventDefault();
       try {
           const name = document.getElementById('name').value;
           const price = document.querySelector('#price').value;
@@ -44,9 +46,10 @@ function Gallery() {
 
           result.current = response.data.message
 
-          e.preventDefault();
 
           getProduct();
+          // reset  this prevent
+          e.target.reset()
       } catch (error) {
           // handle error
           console.log(error);
